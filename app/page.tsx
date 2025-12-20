@@ -101,7 +101,7 @@ export default function Home() {
             <p className="text-white">This is a simple Tailwind card.</p>
             <p className="text-amber-200">Look below for the code.</p>
           </div>
-          <pre className="bg-blue-950 text-blue-100 p-4 rounded-sm ">
+          <pre className="text-wrap bg-blue-950 text-blue-100 p-4 rounded-sm ">
             <code>{utilityClassesExample}</code>
           </pre>
           <ul className="list-disc pl-6 my-3">
@@ -127,7 +127,7 @@ export default function Home() {
               <li>Contact</li>
             </ul>
           </nav>
-          <pre className="bg-blue-950 text-blue-100 p-4 rounded-sm ">
+          <pre className="text-wrap bg-blue-950 text-blue-100 p-4 rounded-sm ">
             <code>{flexExample}</code>
           </pre>
           <ul className="list-disc pl-6 my-3">
@@ -141,7 +141,7 @@ export default function Home() {
             <div className="bg-gray-600 p-4">Column 2</div>
             <div className="bg-gray-600 p-4">Column 3</div>
           </div>
-          <pre className="bg-blue-950 text-blue-100 p-4 rounded-sm ">
+          <pre className="text-wrap bg-blue-950 text-blue-100 p-4 rounded-sm ">
             <code>{gridExample}</code>
           </pre>
           <ul className="list-disc pl-6 my-3">
@@ -167,16 +167,18 @@ export default function Home() {
             <div className="bg-white p-6 rounded shadow">Card 2</div>
             <div className="bg-white p-6 rounded shadow">Card 3</div>
           </div>
-          <pre className="bg-blue-950 text-blue-100 p-4 rounded-sm ">
-            <code>{utilityClassesExample}</code>
+          <pre className="text-wrap bg-blue-950 text-blue-100 p-4 rounded-sm ">
+            <code>{responsiveExample}</code>
           </pre>
-          
-
+          <ul className="list-disc pl-6 my-3">
+            <li><code className="bg-blue-950 text-white pl-1 pr-1 rounded-sm">md:grid-cols-2</code> sets the number of grid columns to 2 at medium screen view</li>
+            <li><code className="bg-blue-950 text-white pl-1 pr-1 rounded-sm">lg:grid-cols-3</code> sets the number of grid columns to 3 at large screen view</li>
+          </ul>
         </section>
 
         <section className="mb-6">
-          <h2 id="" className="text-3xl font-semibold">Wrapping Up</h2>
-
+          <h2 id="" className="text-3xl font-semibold mb-2">Wrapping Up</h2>
+          <p>Tailwind enables <b>rapid development</b> by allowing developers to style webpages within the same file. With its fine-tuned presets, it allows for <b>high customizability</b> while maintaining <b>design consistency</b>. <b>Responsive</b> design is made easier using prefixes, avoiding complex media queries. Lastly but not the least, you don't have to name classes anymore!</p>
         </section>
       </main>
 

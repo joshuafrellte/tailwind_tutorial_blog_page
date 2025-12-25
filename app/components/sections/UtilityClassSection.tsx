@@ -11,7 +11,7 @@ const utilityClassesExample = `<div className="text-cyan-300 w-fit p-6 my-4 bg-b
 export default function UtilityClassesSection() {
      return (
         <section className="flex flex-col gap-3 mb-12">
-          <SectionTitle id="utility">Utility Classes</SectionTitle>
+          <SectionTitle>Utility Classes</SectionTitle>
           <p>One class = One style</p>
           <p>Multiple classes componse a design.</p>
           <div className="text-cyan-300 w-fit p-6 my-4 bg-blue-950 rounded-2xl">

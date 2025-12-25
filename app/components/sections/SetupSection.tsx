@@ -3,7 +3,7 @@ import SectionTitle from "../ui/SectionTitle";
 export default function SetupSection() {
     return (
         <section className="mb-12">
-          <SectionTitle id="setup">Setup</SectionTitle>
+          <SectionTitle>Setup</SectionTitle>
           <ol className="list-decimal pl-6">
             <li className="mt-2">Install Node.js</li>
             <li className="mt-2">

@@ -20,7 +20,7 @@ const gridExample = `<div class="text-amber-100 grid grid-cols-3 gap-4 p-4">
 export default function LayoutSection() {
     return (
         <section className="flex flex-col gap-3 mb-12">
-            <SectionTitle id="layout">Layout</SectionTitle>
+            <SectionTitle>Layout</SectionTitle>
             <h3 className="text-2xl font-semibold my-1">Flex</h3>
             <nav className="flex items-center justify-between p-4 bg-blue-500 text-white">
                 <div className="font-bold">Logo</div>

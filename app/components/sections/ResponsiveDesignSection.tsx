@@ -11,7 +11,7 @@ const responsiveExample = `<div className="grid grid-cols-1 md:grid-cols-2 lg:gr
 export default function ResponsiveDesignSection() {
     return (
         <section className="flex flex-col gap-3 mb-12">
-          <SectionTitle id="responsive">Responsive Design</SectionTitle>
+          <SectionTitle>Responsive Design</SectionTitle>
           <p>
             Tailwind is <b>mobile-first</b>. You can add breakpoints using prefixes:{' '}
             <code className="bg-blue-950 text-white pl-1 pr-1 rounded-sm">sm:</code>,{' '}
